@@ -78,6 +78,9 @@ class CrossAttentionFusion(nn.Module):
         f_a = f_a.transpose(1, 2).contiguous().view(B, -1, self.project_dim)
         return self.W_o(f_a).view(B, self.h2, self.w2, self.c1).permute(0, 3, 1, 2)
 
+# ==========================================
+# 2. CLASS SPECIFIC HEADS
+# ==========================================
 
 class HER2FusionNet(nn.Module):
     def __init__(self, num_classes=4):
@@ -119,7 +122,7 @@ class HER2FusionNet(nn.Module):
         # Note: Softmax is typically handled by nn.CrossEntropyLoss during training
         return logits
 # ==========================================
-# 2. DATASET MANAGEMENT
+# 3. DATASET MANAGEMENT
 # ==========================================
 
 class HER2Dataset(Dataset):
@@ -156,7 +159,7 @@ class HER2Dataset(Dataset):
         return self.tiss_transform(img), self.text_transform(img), self.labels[idx]
 
 # ==========================================
-# 3. TRAINING & SAVING LOGIC
+# 4. TRAINING & SAVING LOGIC
 # ==========================================
 
 def train_model(train_path, val_path, num_epochs=10):
