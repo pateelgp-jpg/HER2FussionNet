@@ -22,7 +22,7 @@ The model consists of the following primary components:
 
 ## 📂 Dataset Structure
 
-The code is designed to work with the BCI dataset.
+The code is designed to work with the BCI dataset and tested on BCNB dataset.
 
 Ensure your data is organized in the following directory structure:
 
