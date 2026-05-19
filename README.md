@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ### 2. Preprocessing
 
-To extract 512×512 patches and remove blank background patches from the raw BCI images, run:
+To extract patches and remove blank background patches from the raw BCI images, run:
 
 ```bash
 python patch_generator.py
