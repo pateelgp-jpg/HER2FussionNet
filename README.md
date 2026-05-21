@@ -52,6 +52,18 @@ Data/
     └── HER2_3/
 ```
 
+
+* **BibTeX:**
+```bibtex
+@INPROCEEDINGS{9857332,
+  author={Liu, Shengjie and Zhu, Chuang and Xu, Feng and Jia, Xinyu and Shi, Zhongyue and Jin, Mulan},
+  booktitle={2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
+  title={BCI: Breast Cancer Immunohistochemical Image Generation through Pyramid Pix2pix}, 
+  year={2022},
+  pages={1814-1823},
+  doi={10.1109/CVPRW56347.2022.00198}
+}
+
 ---
 
 ## 🚀 Getting Started
