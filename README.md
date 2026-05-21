@@ -103,20 +103,20 @@ python evaluate_model.py
 
 ## 📊 Results
 
-The evaluation script generates:
+The evaluation script generates a detailed classification report and visual performance metrics.
 
-- **Classification Report**
-  - Precision
-  - Recall
-  - F1-Score for each HER2 class
+### Confusion Matrix
+The matrix below illustrates the model's performance across the four HER2 categories (0, 1+, 2+, 3+), highlighting the specialized multi-head classifier's ability to distinguish between adjacent classes.
 
-- **Confusion Matrix**
-  - Visual representation of model performance across all four categories
-  - Saved as:
+![Confusion Matrix](test_confusion_matrix.png)
 
-```text
-test_confusion_matrix.png
-```
+### ROC Curve
+The Receiver Operating Characteristic (ROC) curve demonstrates the diagnostic sensitivity and specificity of the HER2FusionNet architecture.
+
+![ROC Curve](roc_curve_results.png)
+
+### Performance Metrics
+- **Precision, Recall, and F1-Score** are calculated for each class to ensure balanced performance across the HER2 spectrum.
 
 ---
 
