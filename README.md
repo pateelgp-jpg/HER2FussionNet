@@ -113,7 +113,7 @@ The matrix below illustrates the model's performance across the four HER2 catego
 ### ROC Curve
 The Receiver Operating Characteristic (ROC) curve demonstrates the diagnostic sensitivity and specificity of the HER2FusionNet architecture.
 
-![ROC Curve](roc_curve_results.png)
+![ROC Curve](ROC_curve.png)
 
 ### Performance Metrics
 - **Precision, Recall, and F1-Score** are calculated for each class to ensure balanced performance across the HER2 spectrum.
