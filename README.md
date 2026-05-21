@@ -27,17 +27,6 @@ The model consists of the following primary components:
 The evaluation and training of HER2FusionNet were performed using the **BCI (Breast Cancer Immunohistochemistry)** dataset. This is a publicly available dataset for academic research.
 
 * **Dataset Access:** [BCI Dataset Official Repository](https://github.com/ShengjieLiu/BCI)
-* **BibTeX:**
-```bibtex
-@INPROCEEDINGS{9857332,
-  author={Liu, Shengjie and Zhu, Chuang and Xu, Feng and Jia, Xinyu and Shi, Zhongyue and Jin, Mulan},
-  booktitle={2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
-  title={BCI: Breast Cancer Immunohistochemical Image Generation through Pyramid Pix2pix}, 
-  year={2022},
-  pages={1814-1823},
-  doi={10.1109/CVPRW56347.2022.00198}
-}
-
 The code is designed to work with the BCI dataset and tested on BCNB dataset.
 
 Ensure your data is organized in the following directory structure:
