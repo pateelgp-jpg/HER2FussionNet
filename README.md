@@ -108,7 +108,7 @@ The evaluation script generates a detailed classification report and visual perf
 ### Confusion Matrix
 The matrix below illustrates the model's performance across the four HER2 categories (0, 1+, 2+, 3+), highlighting the specialized multi-head classifier's ability to distinguish between adjacent classes.
 
-![Confusion Matrix](test_confusion_matrix.png)
+![Confusion Matrix](confusion_metrix.png)
 
 ### ROC Curve
 The Receiver Operating Characteristic (ROC) curve demonstrates the diagnostic sensitivity and specificity of the HER2FusionNet architecture.
