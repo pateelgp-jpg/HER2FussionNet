@@ -3,7 +3,6 @@
 This repository contains the official implementation of **HER2FusionNet**, a deep learning framework designed for the 4-class classification of HER2 status (HER2-0, HER2-1+, HER2-2+, and HER2-3+) from histopathology image patches.
 
 The architecture utilizes a dual-branch feature extraction system (Tissue-Net and Texture-Net) integrated through a 3-head cross-attention mechanism and a class-specific multi-head classification layer.
-![HER2FusionNet Architecture](architecture_diagram.jpg)
 
 ---
 
@@ -18,6 +17,8 @@ The model consists of the following primary components:
 3. **Cross-Attention Fusion:** Aligns and fuses features from both branches using a multi-head attention mechanism.
 
 4. **Class-Specific Multi-Heads:** Four independent classification heads specialized in identifying individual HER2 categories to reduce inter-class confusion.
+
+   ![HER2FusionNet Architecture](architecture_diagram.jpg)
 
 ---
 
