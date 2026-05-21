@@ -51,8 +51,7 @@ Data/
     ├── HER2_2/
     └── HER2_3/
 ```
-
-
+---
 * **BibTeX:**
 ```bibtex
 @INPROCEEDINGS{9857332,
@@ -63,8 +62,6 @@ Data/
   pages={1814-1823},
   doi={10.1109/CVPRW56347.2022.00198}
 }
-
----
 
 
 ## 🚀 Getting Started
