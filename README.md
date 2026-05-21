@@ -22,7 +22,21 @@ The model consists of the following primary components:
 
 ---
 
-## 📂 Dataset Structure
+## 📂 Dataset organisation
+
+The evaluation and training of HER2FusionNet were performed using the **BCI (Breast Cancer Immunohistochemistry)** dataset. This is a publicly available dataset for academic research.
+
+* **Dataset Access:** [BCI Dataset Official Repository](https://github.com/ShengjieLiu/BCI)
+* **BibTeX:**
+```bibtex
+@INPROCEEDINGS{9857332,
+  author={Liu, Shengjie and Zhu, Chuang and Xu, Feng and Jia, Xinyu and Shi, Zhongyue and Jin, Mulan},
+  booktitle={2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
+  title={BCI: Breast Cancer Immunohistochemical Image Generation through Pyramid Pix2pix}, 
+  year={2022},
+  pages={1814-1823},
+  doi={10.1109/CVPRW56347.2022.00198}
+}
 
 The code is designed to work with the BCI dataset and tested on BCNB dataset.
 
@@ -122,20 +136,9 @@ The Receiver Operating Characteristic (ROC) curve demonstrates the diagnostic se
 
 ---
 
-## 📄 Citation
-
-If you use this code in your research, please cite our paper:
-
-```text
-[Insert your full paper citation here once published]
-```
-
----
-
 ## 📌 Notes
 
 1. Replace `YOUR_USERNAME` in the installation section with your actual GitHub username.
 
-2. Once your paper is published, update the Citation section.
 
-3. Ensure dataset usage complies with the original dataset license and usage policies.
+
