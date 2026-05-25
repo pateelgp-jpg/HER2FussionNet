@@ -10,9 +10,9 @@ The architecture utilizes a dual-branch feature extraction system (Tissue-Net an
 
 The model consists of the following primary components:
 
-1. **Tissue-Net:** Extracts structural and morphological features from 128×128 input patches.
+1. **Tissue-Net:** Extracts structural and morphological features from input patches.
 
-2. **Texture-Net:** Utilizes learnable Gabor convolutional layers to capture fine-grained texture details from 256×256 input patches.
+2. **Texture-Net:** Utilizes learnable Gabor convolutional layers to capture fine-grained texture details from input patches.
 
 3. **Cross-Attention Fusion:** Aligns and fuses features from both branches using a multi-head attention mechanism.
 
