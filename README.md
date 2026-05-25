@@ -1,4 +1,4 @@
-# HER2FusionNet: Multi-Head Cross-Attention Fusion for HER2 Classification
+# HER2FusionNet: Cross-Attention Fusion of Multi-Level Features for HER2 Scoring in H&E Stained Breast Cancer Images
 
 This repository contains the official implementation of **HER2FusionNet**, a deep learning framework designed for the 4-class classification of HER2 status (HER2-0, HER2-1+, HER2-2+, and HER2-3+) from histopathology image patches.
 
